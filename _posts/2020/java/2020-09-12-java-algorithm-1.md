@@ -12,7 +12,7 @@ description: 알고리즘이란 무엇인지 같이 공부해보겠습니다.
 article_tag1: 자료구조
 article_section: Structure
 meta_keywords: 알고리즘, 보글게임, 완전 탐색, 순열
-last_modified_at: '2020-09-12 14:00:00 +08000'
+last_modified_at: '2020-09-21 14:00:00 +08000'
 toc: true
 toc_sticky: true
 toc_label: 목차
