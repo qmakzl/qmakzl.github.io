@@ -12,7 +12,7 @@ description: JAVA에서 람다식을사용하는 방법을 배우고 응용해�
 article_tag1: Lambda Expression
 article_section: 람다
 meta_keywords: JAVA,람다식 기본문법,함수적 인터페이스 ,this 키워드 
-last_modified_at: '2020-03-22 14:00:00 +0800'
+last_modified_at: '2020-09-21 14:00:00 +0800'
 toc: true
 toc_sticky: true
 toc_label: 목차
