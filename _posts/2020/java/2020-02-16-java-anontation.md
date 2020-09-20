@@ -12,7 +12,7 @@ description: 자주 등장하는 어노테이션(annotation)에 대해 조금더
 article_tag1: Annotation
 article_section: JAVA의 Annotation이란 무엇인가
 meta_keywords: JAVA, Annotation, Annotation Type, Element
-last_modified_at: '2020-02-16 16:00:00 +0800'
+last_modified_at: '2020-09-21 16:00:00 +0800'
 toc: true
 toc_sticky: true
 toc_label: 목차
