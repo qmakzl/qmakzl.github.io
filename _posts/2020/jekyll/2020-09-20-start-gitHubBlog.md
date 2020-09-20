@@ -93,6 +93,9 @@ CHANGELOG.md
 docs( 샘플 파일들이 들어가 있는  폴더로 우선 나중을 위해 다른 곳으로 옮겨줍니다. )
 ```
 push를 진행하면 이제 https://{GitID}.github.io 주소로 같은 화면을 볼 수 있습니다. 
+### push 방법!
+![로컬서버]({{ site.url }}{{ site.baseurl }}/assets/images/post/jekyll/upload.PNG){: .align-center}
+
 
 ## Step 4: Sample 게시물 확인
 이전에 이동했덩 docs폴더안 _post폴더를  우리 _post에 덮어 씌운 후  jekyll 서버를 재시작 합니다.  그렇다면 이제   [http://localhost:4000/ ]({{"http://localhost:4000/"}}){:target="_blank"}에서  블로그 게시물 디자인에 참고할 만한  다양한 샘플 포스트를 확인할 수 있습니다.
