@@ -12,7 +12,7 @@ description: JAVA에서 Generic을사용하는 방법을 배우고 응용해보�
 article_tag1: 제네릭 타입
 article_section: Generic이란
 meta_keywords: JAVA,제네릭 타입, 멀티 타입 파라미터, 제한된 타입 파라미터
-last_modified_at: '2020-03-15 14:00:00 +0800'
+last_modified_at: '2020-09-21 14:00:00 +0800'
 toc: true
 toc_sticky: true
 toc_label: 목차
