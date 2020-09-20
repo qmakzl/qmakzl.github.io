@@ -12,7 +12,7 @@ description: JAVA에서 Thread사용하는 방법을 배우고 멀티코어 환�
 article_tag1: 멀티 스레드( Multi Thread )의 개념, Main Thread
 article_section: 쓰레드란 무엇인가.
 meta_keywords: JAVA, Multi Thread, Thread 하위 클래스로부터 생성
-last_modified_at: '2020-03-14 14:00:00 +0800'
+last_modified_at: '2020-09-21 14:00:00 +0800'
 toc: true
 toc_sticky: true
 toc_label: 목차
