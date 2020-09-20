@@ -14,7 +14,7 @@ description: 이펙티브 자바 책을 보면서 Static Factory Method에 대�
 article_tag1: 이펙티브 자바
 article_section: 정적 팩터리 메서드란 무엇인가.
 meta_keywords: JAVA, Effective Java
-last_modified_at: '2020-03-01 14:00:00 +0800'
+last_modified_at: '2020-09-21 14:00:00 +0800'
 toc: true
 toc_sticky: true
 toc_label: 목차
