@@ -15,7 +15,7 @@ article_tag2: JVM
 article_tag3: static memory
 article_section: JAVA Static 공부하기
 meta_keywords: java,static,memory
-last_modified_at: '2020-02-01 18:00:00 +0800'
+last_modified_at: '2020-09-21 18:00:00 +0800'
 toc: true
 toc_sticky: true
 toc_label: 목차
