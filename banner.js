@@ -8,7 +8,7 @@ const date = `${dateObj.getFullYear()}-${padStart(
   dateObj.getMonth() + 1
 )}-${padStart(dateObj.getDate())}`;
 const banner = `/*!
- * Copyright 2020-${dateObj.getFullYear()} Seokjin Kim
+ * Copyright 2020-${dateObj.getFullYear()} Yungi Lee
  */
 `;
 
