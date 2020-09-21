@@ -54,8 +54,8 @@ public class MemberRegisterService {
 **의존** <br>
 의존은 변경에 의해 영향을 받는 관계를 의미한다.<br> 
 예를 들어 MemberDao의 insert() 메서드의 이름을 insertMember()로 변경하면 이 메서드를 사용하는 
-MemberRegisterService 클래스의 소스코드도 함께 변경된다. <br>이렇게 변경에 따른 영향이 전파되는 관계를 
-'의존'한다고 표현한다. 
+MemberRegisterService 클래스의 소스코드도 함께 변경된다. <br>
+이렇게 변경에 따른 영향이 전파되는 관계를 '의존'한다고 표현한다. <br>
 {: .notice--info}
 
 ## Step 2: DI를 통한 의존 처리 
@@ -90,12 +90,15 @@ public class MemberRegisterService {
 	}
 }
 ```
-직접 의존 객체를 생성했던 코드와 달리 바뀐 코드는 의존 객체를 직접 생성하지 않는다. 대신 08~10행과 같이 생성자를 통해서 의존 객체를 전달받는다. 즉 생성자를 통해 MemberRegisterService가 의존(Dependency)하고 있는
-MemberDao 객체를 주입(Injection) 받은 것이다. 의존 객체를 직접 구하지 않고 생성자를 통해서 전달받기 때문에 이 코드는 DI(의존 주입) 패턴을 따르고 있다.
+직접 의존 객체를 생성했던 코드와 달리 바뀐 코드는 의존 객체를 직접 생성하지 않는다. <br>
+대신 08~10행과 같이 생성자를 통해서 의존 객체를 전달받는다. <br>
+즉 생성자를 통해 MemberRegisterService가 의존(Dependency)하고 있는
+MemberDao 객체를 주입(Injection) 받은 것이다. <br>
+의존 객체를 직접 구하지 않고 생성자를 통해서 전달받기 때문에 이 코드는 DI(의존 주입) 패턴을 따르고 있다.<br>
 
 ## Step 3: DI와 의존 객체 변경의 유연함
  
-의존 객체를 직접 생성하는 방식은 필드나 생성자에서 new 연산자를 이용해서 객체를 생성한다. 
+의존 객체를 직접 생성하는 방식은 필드나 생성자에서 new 연산자를 이용해서 객체를 생성한다. <br>
 회원 등록 기능을 제공하는 MemberRegisterService 클래스에서 다음 코드처럼 의존 객체를 직접 생성할 수 있다.<br>
 {: .notice--info}
 ```java
@@ -111,7 +114,9 @@ public class ChangePasswordService{
 	...
 }
 ```
-MemberDao 클래스는 회원 데이터를 데이터베이스에 저장한다고 가정해보자. 이 상태에서 회원 데이터의 빠른 조회를 위해 캐시를 적용해야 하는 상황이 발생했다. 그래서 MemberDao 클래스를 상속받은 CachedMemberDao 클래스를 만들었다.<br>
+MemberDao 클래스는 회원 데이터를 데이터베이스에 저장한다고 가정해보자. <br>
+이 상태에서 회원 데이터의 빠른 조회를 위해 캐시를 적용해야 하는 상황이 발생했다. <br>
+그래서 MemberDao 클래스를 상속받은 CachedMemberDao 클래스를 만들었다.<br>
 ```java
 public class CachedMemberDao extends MemberDao{
 	...
@@ -119,8 +124,11 @@ public class CachedMemberDao extends MemberDao{
 ```
 
 **캐시** <br>
-캐시(cache)는 데이터 값을 복사해 놓는 임시 장소를 가리킨다. 보통 조회 속도 향상을 위해 캐시를 사용한다. 예를 들어 데이터베이스에서 데이터를 조회하는 경우를 생각해보자. 데이터베이스에서 데이터를 읽어오는데 10밀리초(1밀리 초는 0.001초)가
- 걸린다면 메모리에 있는 데이터를 접근할 때에는 1밀리초도 안 걸릴 것이다. DB에 있는 데이터 중 자주 조회하는 데이터를 메모리를 이용하는 캐시에 보관하면 조회 속도를 향상시킬 수 있다. 
+캐시(cache)는 데이터 값을 복사해 놓는 임시 장소를 가리킨다. <br>
+보통 조회 속도 향상을 위해 캐시를 사용한다. <br>
+예를 들어 데이터베이스에서 데이터를 조회하는 경우를 생각해보자. <br>
+데이터베이스에서 데이터를 읽어오는데 10밀리초(1밀리 초는 0.001초)가 걸린다면 메모리에 있는 데이터를 접근할 때에는 1밀리초도 안 걸릴 것이다. <br>
+DB에 있는 데이터 중 자주 조회하는 데이터를 메모리를 이용하는 캐시에 보관하면 조회 속도를 향상시킬 수 있다. <br>
 {: .notice--info}
 
 
@@ -231,7 +239,8 @@ public class Member {
 
 }
 ```
-changePassword() 메서드는 암호 변경 기능을 구현했다. 이 메서드는 oldPassword와 newPassword의 두 파라미터를 전달받는다.<br>
+changePassword() 메서드는 암호 변경 기능을 구현했다. <br>
+이 메서드는 oldPassword와 newPassword의 두 파라미터를 전달받는다.<br>
 oldPassword가 현재 암호인 password 필드와 값이 다르면 WrongIdPasswordException을 발생시키고, 값이 같으면 password 필드를 newPassword로 변경한다.
 ```java
 //sp5-chap03/src/main/java/spring/WrongIdPasswordException.java
