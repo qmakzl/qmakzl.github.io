@@ -10,7 +10,7 @@ categories:
 - Jekyll
 toc: true
 toc_sticky: true
-toc_label: 목차
+toc_label: 목차 
 description: 깃 블로그 하는 방법을 기술하고 깃 블로그란 무엇인지  GitBlog와 Jekyll란 무엇인지 또한  로컬 개발 환경을 위한 루비설치를 어떻게 하는지 _config.yml 세팅 등 깃 블로그를 처음 시작할때 겪었던 어려움을 극복하는 페이지
 article_tag1: GitHub(GitBlog) 블로그
 article_tag2: minimal-mistakes
@@ -44,7 +44,7 @@ last_modified_at: 2020-01-23T00:00:00+08:00
 
 ## Step 2: GitBlog와 Jekyll
 
-이러한 Github page에 Jekyll을 결합한다면 좀 더 생산적이고 강력한 블로그를 만들 수 있습니다. Jekyll이란 HTML(.html), Markdown(.md) 등 다양한 포맷의 텍스트들을 읽고 가공하여 자신의 웹 사이트에 바로 게시할 수 있게 해주는 Rubby언어로 만들어진 하나의 **텍스트 변환 엔진**이라고 보면 됩니다. 쉽게 말해 html을 모르더라도 공부하기 비교적 수월한 markdown 파일을 작성하면 알아서 html파일로 변환되어 웹 서비스를 구축해 준다고 생각하면 됩니다. 지킬을 사용하여 게시글을 작성한다면 웹 사이트를 효율적으로 구성할 수 있습니다. Jekyll은 Github의 내부 엔진이기 때문에 Github page에서도 자연스럽게 동작합니다. 감사하게도 이러한 jekyll을 가지고 사용자들이 다양한 테마를 미리 만들고 공유하여 디자인에 대해 깊은 고민은 하지 않게 해주었습니다. 주소는 아래와 같습니다.<br>
+이러한 Github page에 Jekyll을 결합한다면 좀 더 생산적이고 강력한 블로그를 만들 수 있습니다. Jekyll이란 HTML(.html), Markdown(.md) 등 다양한 포맷의 텍스트들을 읽고 가공하여 자신의 웹 사이트에 바로 게시할 수 있게 해주는 Rubby언어로 만들어진 하나의 **텍스트 변환 엔진**이라고 보면 됩니다. 쉽게 말해 html을 모르더라도 공부하기 비교적 수월한 markdown 파일을 작성하면 알아서 html파일로 변환되어 웹 서비스를 구축해 준다고 생각하면 됩니다. 지킬을 사용하여 게시글을 작성한다면 웹 사이트를 효율적으로 구성할 수 있습니다. Jekyll은 Github의 내부 엔진이기 때문에 Github page에서도 자연스럽게 동작합니다. 감사하게도 이러한 jekyll을 가지고 사용자들이 다양한 테마를 미리 만들고 공유하여 디자인에 대해 깊은 고민은 하지 않게 해주었습니다. 주소는 아래와 같습니다. <br>
 <br>
 [http://jekyllthemes.org/]({{"http://jekyllthemes.org/"}}){:target="_blank"}<br>
 [http://themes.jekyllrc.org/]({{"http://themes.jekyllrc.org/"}}){:target="_blank"}<br>
