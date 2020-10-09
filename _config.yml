@@ -120,7 +120,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:qmakzl1@naver.com"
-    - label: "Website"
+    - label: "Website" 
       icon: "fas fa-fw fa-link"
       url: https://qmakzl.github.io
     - label: "Twitter"
