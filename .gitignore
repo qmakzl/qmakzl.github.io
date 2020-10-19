@@ -6,7 +6,7 @@
 *.sublime-project
 *.sublime-workspace
 
-# Ruby Gem
+# Ruby Gem 
 *.gem
 .bundle
 Gemfile.lock
@@ -20,6 +20,7 @@ codekit-config.json
 
 # macOS
 .DS_Store
+
 
 # Jekyll generated files
 .jekyll-cache
