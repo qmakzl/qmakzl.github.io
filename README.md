@@ -1,4 +1,4 @@
 >***
-># [ 수정 X, repositories 이젠 실수 없다!! ] 
+># [ 수정 X, repositories!! ] 
 >***
 >
